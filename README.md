@@ -36,10 +36,11 @@ A full-stack machine learning project that provides movie recommendations using 
 
 ```
 .
-├── recommender.py         # FastAPI app with recommendation logic
 ├── src/
 │   └── movies.csv         # MovieLens metadata (title, genres)
 ├── frontend/              # Next.js frontend (optional setup)
+├── backend/               # Next.js frontend (optional setup)
+│   └── main.py            # FastAPI app with recommendation logic
 └── README.md
 ```
 
